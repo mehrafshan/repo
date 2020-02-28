@@ -1,0 +1,149 @@
+
+/* open-sans-regular - latin */
+/*
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    */
+   /* src: url('../fonts/open-sans-v17-latin-regular.eot');  IE9 Compat Modes */
+   /* src: local('Open Sans Regular'), local('OpenSans-Regular'), */
+      /*   url('../fonts/open-sans-v17-latin-regular.eot?#iefix') format('embedded-opentype'),  IE6-IE8 */
+      /*   url('../fonts/open-sans-v17-latin-regular.woff2') format('woff2'),  Super Modern Browsers */
+      /*   url('../fonts/open-sans-v17-latin-regular.woff') format('woff'),  Modern Browsers */
+      /*   url('../fonts/open-sans-v17-latin-regular.ttf') format('truetype'),  Safari, Android, iOS */
+      /*   url('../fonts/open-sans-v17-latin-regular.svg#OpenSans') format('svg');  Legacy iOS */
+  /*}*/
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url(../font/open-sans-v17-latin-regular.ttf)
+    format('truetype'); /* Safari, Android, iOS */
+  }
+@font-face{
+    font-family:'salicon';
+    src:url(../font/salicon.ttf)
+        format('truetype');
+}
+@font-face{
+    font-family:'vazir';
+    src:url(../font/Vazir-FD-WOL.ttf)
+        format('truetype');
+}
+*{
+    font-family: vavir , Open Sans , sans-serif, salicon ;
+    font-style: normal;
+    font-weight: 400;
+}
+.ico{
+    font-family: salicon !important;
+    display:inline-block;
+    font-size:20px;
+    position: relative;
+    top: 8px;
+    line-height: 1px;
+    text-rendering:auto;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale
+    
+}
+.ico:hover{
+    -ms-transform: scale(1.1,1.1); /* IE 9 */
+  -webkit-transform: scale(1.1,1.1); /* Safari */
+  transform: scale(1.1,1.1); /* Standard syntax */
+}
+
+.ico-home:before{content:'\e001'}
+.ico-search:before{content:'\e002'}
+.ico-chat1:before{content:'\e003'}
+.ico-chat2:before{content:'\e004'}
+.ico-log:before{content:'\e005'}
+.ico-face-fun:before{content:'\e006'}
+.ico-face-nofun:before{content:'\e007'}
+.ico-user:before{content:'\e008'}
+.ico-success:before{content:'\e009'}
+.ico-comment:before{content:'\e010'}
+.ico-stop:before{content:'\e011'}
+.ico-win:before{content:'\e012'}
+.ico-pay:before{content:'\e013'}
+.ico-carry:before{content:'\e014'}
+.ico-agreement:before{content:'\e015'}
+.ico-discount:before{content:'\e016'}
+.ico-basket-w:before{content:'\e017'}
+.ico-bascet-b:before{content:'\e018'}
+.ico-delivery:before{content:'\e019'}
+.ico-eye-close:before{content:'\e020'}
+.ico-eye:before{content:'\e021'}
+.ico-hart-w:before{content:'\e022'}
+.ico-hart-b:before{content:'\e023'}
+.ico-earth:before{content:'\e024'}
+.ico-close-w:before{content:'\e025'}
+.ico-close-b:before{content:'\e026'}
+.ico-ok-w:before{content:'\e027'}
+.ico-ok-b:before{content:'\e028'}
+.ico-plus:before{content:'\e029'}
+.ico-minus:before{content:'\e030'}
+.ico-close:before{content:'\e031'}
+.ico-front:before{content:'\e032'}
+.ico-back:before{content:'\e033'}
+.ico-diwn-w:before{content:'\e034'}
+.ico-down-b:before{content:'\e035'}
+.ico-up-w:before{content:'\e036'}
+.ico-up-b:before{content:'\e037'}
+.ico-down-csr:before{content:'\e038'}
+.ico-up-csr:before{content:'\e039'}
+.ico-right-csr:before{content:'\e040'}
+.ico-left-csr:before{content:'\e041'}
+.ico-delete:before{content:'\e042'}
+.ico-barcode:before{content:'\e043'}
+.ico-download:before{content:'\e044'}
+.ico-upload:before{content:'\e045'}
+.ico-link1:before{content:'\e046'}
+.ico-link2:before{content:'\e047'}
+.ico-sale-tag:before{content:'\e048'}
+.ico-lock-w:before{content:'\e049'}
+.ico-lock-b:before{content:'\e050'}
+.ico-enter:before{content:'\e051'}
+.ico-out:before{content:'\e052'}
+.ico-puzzle:before{content:'\e053'}
+.ico-quot-end:before{content:'\e054'}
+.ico-quot-start:before{content:'\e055'}
+.ico-cut:before{content:'\e056'}
+.ico-like:before{content:'\e057'}
+.ico-unlike:before{content:'\e058'}
+.ico-open-letter:before{content:'\e059'}
+.ico-mail:before{content:'\e060'}
+.ico-knowledge:before{content:'\e061'}
+.ico-filter1:before{content:'\e062'}
+.ico-list:before{content:'\e063'}
+.ico-menu:before{content:'\e064'}
+.ico-24:before{content:'\e065'}
+.ico-alarm:before{content:'\e066'}
+.ico-time:before{content:'\e067'}
+.ico-filter2:before{content:'\e068'}
+.ico-filter3:before{content:'\e069'}
+.ico-setting:before{content:'\e070'}
+.ico-wonder-w:before{content:'\e071'}
+.ico-wonder-b:before{content:'\e072'}
+.ico-fun-log:before{content:'\e073'}
+.ico-question-w:before{content:'\e074'}
+.ico-question-b:before{content:'\e075'}
+.ico-blog:before{content:'\e076'}
+.ico-google:before{content:'\e077'}
+.ico-compare:before{content:'\e078'}
+.ico-dots:before{content:'\e079'}
+.ico-info:before{content:'\e080'}
+.ico-database:before{content:'\e081'}
+.ico-expert:before{content:'\e082'}
+.ico-edit:before{content:'\e083'}
+.ico-doc1:before{content:'\e084'}
+.ico-doc2:before{content:'\e085'}
+.ico-doc3:before{content:'\e086'}
+.ico-folder:before{content:'\e087'}
+.ico-tools:before{content:'\e088'}
+.ico-star-w:before{content:'\e089'}
+.ico-star-b:before{content:'\e090'}
+.ico-medal:before{content:'\e091'}
+.ico-code:before{content:'\e092'}
+.ico-report:before{content:'\e093'}
+
